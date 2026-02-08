@@ -1,13 +1,13 @@
 class Dicomforge < Formula
   desc "CLI tool to generate valid DICOM MRI series for testing"
   homepage "https://github.com/mrsinham/dicomforge"
-  version "1.5.0"
+  version "1.6.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/mrsinham/dicomforge/releases/download/v1.5.0/dicomforge-darwin-amd64"
-      sha256 "f1c1bcca619d8b5bce84ad723b43ca86e6beee15f4825e902533d39077f9c957"
+      url "https://github.com/mrsinham/dicomforge/releases/download/v1.6.0/dicomforge-darwin-amd64"
+      sha256 "33abcef20db6bec4b035e43bfb46af6691b3017133024cedfd5162d867e97f3f"
 
       def install
         bin.install "dicomforge-darwin-amd64" => "dicomforge"
@@ -15,8 +15,8 @@ class Dicomforge < Formula
     end
 
     on_arm do
-      url "https://github.com/mrsinham/dicomforge/releases/download/v1.5.0/dicomforge-darwin-arm64"
-      sha256 "8bd345068cb7b27269fb399012e51fbe0337c16c4fdf22477548ab0780eb25b2"
+      url "https://github.com/mrsinham/dicomforge/releases/download/v1.6.0/dicomforge-darwin-arm64"
+      sha256 "5d4239eadc96c2998c169c369134ed6ed8de6ed50cbd6fa91ba56f461a9ead45"
 
       def install
         bin.install "dicomforge-darwin-arm64" => "dicomforge"
@@ -26,8 +26,8 @@ class Dicomforge < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/mrsinham/dicomforge/releases/download/v1.5.0/dicomforge-linux-amd64"
-      sha256 "0eade2385f4d27617106555cc4c2dab5c8d9e67cbb0289898b73ed7e4d7c899d"
+      url "https://github.com/mrsinham/dicomforge/releases/download/v1.6.0/dicomforge-linux-amd64"
+      sha256 "c3b3405ac4a1691869cce1c66fb33cc6904deab8d6b605c4215f4d613aa13123"
 
       def install
         bin.install "dicomforge-linux-amd64" => "dicomforge"
@@ -35,8 +35,8 @@ class Dicomforge < Formula
     end
 
     on_arm do
-      url "https://github.com/mrsinham/dicomforge/releases/download/v1.5.0/dicomforge-linux-arm64"
-      sha256 "7299cc09ef922bd3ffa80ddf08fcdc4f0e987e0d715b76b5e1b1cad2aecfffbd"
+      url "https://github.com/mrsinham/dicomforge/releases/download/v1.6.0/dicomforge-linux-arm64"
+      sha256 "158ccddb2af64d2851c746763b09993a700e2fc0983b360dd430fb9ecb2f4953"
 
       def install
         bin.install "dicomforge-linux-arm64" => "dicomforge"
